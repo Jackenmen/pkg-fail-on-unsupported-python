@@ -1,0 +1,4 @@
+Red-does-not-support-this-version-of-Python.-Please-follow-one-of-the-install-guides-at-docs.discord.red
+
+Red-DiscordBot does not support the version of Python you are currently using.
+Please follow the install guides at https://docs.discord.red/en/stable/install_guides/index.html

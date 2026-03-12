@@ -1,0 +1,26 @@
+[build-system]
+requires = []
+build-backend = "backend"
+backend-path = ["_custom_build"]
+
+[project]
+name = "package-does-not-support-this-version-of-python"
+version = "1.0.0"
+authors = [{name = "Jakub Kuczys", email = "me@jacken.men" }]
+description = "Sdist-only package that shows an error about the lack of support for the current Python version."
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Jackenmen/pkg-fail-on-unsupported-python"
+"Repository" = "https://github.com/Jackenmen/pkg-fail-on-unsupported-python"
+
+[tool.ruff]
+line-length = 99
